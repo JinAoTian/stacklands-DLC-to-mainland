@@ -9,7 +9,7 @@ namespace JYZDLCToMainNS
     {
         public override void Ready()
         {
-            Logger.Log("Ready!");
+            WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.BasicHarvestable, "tomato_plant", 1);
         }
     }
 }
