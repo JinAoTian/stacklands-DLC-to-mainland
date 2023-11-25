@@ -3,9 +3,9 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-namespace ExampleModNS
+namespace JYZDLCToMainNS
 {
-    public class ExampleMod : Mod
+    public class JYZDLCToMain : Mod
     {
         public override void Ready()
         {
